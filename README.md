@@ -26,7 +26,7 @@ will show up inside Metamask and other platforms by default. Each NFT conforms t
 additional metadata outlined below - some of which is not currently supported, but
 has been included for the future.
 
-` BASE_JSON = {
+> BASE_JSON = {
     "name": BASE_NAME,
     "description": BASE_OBJ_DESC,            
     "image": BASE_IMAGE_URL,                    (600x600) IPFS
@@ -35,7 +35,7 @@ has been included for the future.
     "external_url": BASE_SITE_URL,            (ENS domain)
     "attributes": [],
     "background_color": BASE_COLOR,
-}`
+}
 
 **JSON objects are all stored on IPFS**
 
