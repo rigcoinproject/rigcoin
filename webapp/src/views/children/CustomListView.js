@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Typography from '@mui/material/Typography';
 import LinearProgress from '@mui/material/LinearProgress';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
