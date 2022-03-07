@@ -1,24 +1,24 @@
-##Welcome to Rigcoin
+## Welcome to Rigcoin
 
 This repo contains the official open sources for Rigcoin NFTs and Tokens. The webapp is available
 on Brave at (https://rigcoin.eth) and legacy browsers at (https://rigcoin.eth.link).
 
 
-###Please reach out via Twitter @ Rigcoinproject for more.
+### Please reach out via Twitter @ Rigcoinproject for more.
 
 
-###**Official Contract Addresses** [THESE ARE THE OFFICIAL RIGCOIN ADDRESSES]
+### **Official Contract Addresses** [THESE ARE THE OFFICIAL RIGCOIN ADDRESSES]
 
 - Mainnet NFT Contract   'coming soon'
 - Mainnet Token Contract 'coming soon'
 
 
-###**Rinkeby Testnet Addresses** [TESTING ONLY - UNTRACKED]
+### **Rinkeby Testnet Addresses** [TESTING ONLY - UNTRACKED]
 - Rinkeby NFT Contract   0x6E920964f1D3635e83071B449F4E648B29420878
 - inkeby Token Contract 0x23149140a53E618A96E921336c18C8D873ffb7aD
 
 
-##Image Proofs
+## Image Proofs
 
 There are 3 image sizes for each NFT, but only the 600x600 size is what
 will show up inside Metamask and other platforms by default. Each NFT conforms to the
@@ -37,12 +37,12 @@ has been included for the future.
     "background_color": BASE_COLOR,
 }`
 
-###JSON objects are all stored on IPFS QmR6f6zhLNfsE6upkZkJCeuSSw2SJosy3Z6aJgAC5DQFfU
+### JSON objects are all stored on IPFS QmR6f6zhLNfsE6upkZkJCeuSSw2SJosy3Z6aJgAC5DQFfU
 
 
-###Rigcoin Webapp
+### Rigcoin Webapp
 
 The intial build was pushed to IPFS and is updated via the published IPNS hash.
 
-- Initial QM hash QmRCu68Lem7mQDkwNUqdd9ZEgQhW7R45EKpMhnEW9M5SPY
+-      QM hash QmRCu68Lem7mQDkwNUqdd9ZEgQhW7R45EKpMhnEW9M5SPY
 -      IPNS  hash k51qzi5uqu5dienjx47dvf4yjyf39i6n51j7hy5uozdtid8of8hm5yl0wg3yqf
