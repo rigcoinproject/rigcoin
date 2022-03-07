@@ -40,14 +40,21 @@ const ConnectView = (props) => {
       backgroundColor: '#5fdb49',
       borderRadius: '5px',
       padding: '20px',
-      color: 'white'
+      color: 'white',
+      textAlign: 'center',
     },
     launchFont: {
-      fontStyle: 'italic',
-      fontWeight: 'bold'
+      color: 'black',
+      fontSize: '10px',
+      fontWeight: 'bold',
+      textShadow: 'rgb(255 255 255 / 56%) 1px 1px',
     },
     launchBtn: {
       backgroundColor: '#40a124',
+      color: 'white',
+      fontWeight: 'bold',
+      fontSize: 10,
+      padding: 8,
     },
     link: {
       textDecoration: 'none',
@@ -81,7 +88,7 @@ const ConnectView = (props) => {
             <Grid container spacing={3}>
               <Grid item xs={1} md={2} lg={2}></Grid>
               <Grid item xs={10} md={8} lg={8}>
-                <Typography component="div" variant="h3" style={style.heading}>
+                <Typography component="div" variant="h5" style={style.heading}>
                   Connect your Metamask wallet to begin
                 </Typography>
                 <Typography component="div" variant="subtitle2" style={style.subtitle}>
@@ -92,7 +99,7 @@ const ConnectView = (props) => {
             </Grid>
             <Toolbar />
             <Grid container spacing={0}>
-              <Grid item xs={1} md={1} lg={1}></Grid>
+              <Grid item xs></Grid>
               <Grid item xs={10} md={10} lg={10}  style={style.launchDiv}>
                 <Grid container spacing={0}>
                   <Grid item xs={8} md={8} lg={8}>
@@ -105,7 +112,7 @@ const ConnectView = (props) => {
                   </Grid>
                 </Grid>
               </Grid>
-              <Grid item xs={1} md={1} lg={1}></Grid>
+              <Grid item xs></Grid>
             </Grid>
         <FooterView />
       </Box>

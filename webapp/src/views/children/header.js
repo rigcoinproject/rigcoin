@@ -270,7 +270,9 @@ const HeaderView = (props) => {
               component="div"
               sx={{flexGrow: 1, display: { xs: 'none', md: 'flex' } }}
             >
-              Rigcoin
+              <Link to="/"  style={style.link}>
+                Rigcoin
+              </Link>
             </Typography>
 
             {links}
@@ -281,7 +283,9 @@ const HeaderView = (props) => {
               component="div"
               sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
             >
-              Rigcoin
+              <Link to="/"  style={style.link}>
+                Rigcoin
+              </Link>
             </Typography>
             <Box sx={{ flexGrow: 0, display: { xs: 'flex', md: 'none' } }}>
               <Tooltip title="Open settings">

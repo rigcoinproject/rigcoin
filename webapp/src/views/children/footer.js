@@ -57,7 +57,7 @@ const FooterView = () => {
               <a href="https://twitter.com/rigcoinproject" style={style.link}><TwitterIcon /></a>
             </Box>
             <Box sx={{p:1, display:{xs:'inline'}}}>
-              <a href="https://twitter.com/rigcoinproject" style={style.link}><GitHubIcon /></a>
+              <a href="https://github.com/rigcoinproject/rigcoin" style={style.link}><GitHubIcon /></a>
             </Box>
           </Box>
           <Box sx={{p:1}}>
