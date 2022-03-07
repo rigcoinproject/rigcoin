@@ -14,8 +14,8 @@ on Brave at https://rigcoin.eth and on legacy browsers at https://rigcoin.eth.li
 
 
 **Rinkeby Testnet Addresses** [TESTING ONLY - UNTRACKED]
-- Rinkeby NFT Contract   [0x6E920964f1D3635e83071B449F4E648B29420878](https://rinkeby.etherscan.io/address/0x6E920964f1D3635e83071B449F4E648B29420878)
-- Rinkeby Token Contract [0x23149140a53E618A96E921336c18C8D873ffb7aD](https://rinkeby.etherscan.io/address/0x23149140a53E618A96E921336c18C8D873ffb7aD)
+- Rinkeby NFT Contract   [0xBAe952F52f8A04C72604019636Ee966124C158C0](https://rinkeby.etherscan.io/address/0xBAe952F52f8A04C72604019636Ee966124C158C0)
+- Rinkeby Token Contract [0xD9A48eF2Eed8E295CF546d925F08834cbe85Fa12](https://rinkeby.etherscan.io/address/0xD9A48eF2Eed8E295CF546d925F08834cbe85Fa12)
 
 
 ### Image Proofs
