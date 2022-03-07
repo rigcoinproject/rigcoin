@@ -26,16 +26,16 @@ will show up inside Metamask and other platforms by default. Each NFT conforms t
 additional metadata outlined below - some of which is not currently supported, but
 has been included for the future.
 
--     ` BASE_JSON = {
-            "name": BASE_NAME,
-            "description": BASE_OBJ_DESC,            
-            "image": BASE_IMAGE_URL,                    (600x600) IPFS
-            "medium_image": BASE_MEDIUM_IMAGE_URL,    (1200x1200) IPFS
-            "large_image": BASE_LARGE_IMAGE_URL,      (2400x2400) IPFS
-            "external_url": BASE_SITE_URL,            (ENS domain)
-            "attributes": [],
-            "background_color": BASE_COLOR,
-        }`
+-     BASE_JSON = {
+        "name": BASE_NAME,
+        "description": BASE_OBJ_DESC,            
+        "image": BASE_IMAGE_URL,                    (600x600) IPFS
+        "medium_image": BASE_MEDIUM_IMAGE_URL,    (1200x1200) IPFS
+        "large_image": BASE_LARGE_IMAGE_URL,      (2400x2400) IPFS
+        "external_url": BASE_SITE_URL,            (ENS domain)
+        "attributes": [],
+        "background_color": BASE_COLOR,
+      }`
 
 **JSON objects are all stored on IPFS**
 
