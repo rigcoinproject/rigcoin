@@ -1,21 +1,21 @@
 # Welcome to Rigcoin
 
 This repo contains the official open sources for Rigcoin NFTs and Tokens. The webapp is available
-on Brave at (https://rigcoin.eth) and legacy browsers at (https://rigcoin.eth.link).
+on Brave at https://rigcoin.eth and on legacy browsers at https://rigcoin.eth.link.
 
 
 **Connect on Twitter @ Rigcoinproject**
 
 
-**Official Contract Addresses** [THESE ARE THE OFFICIAL RIGCOIN ADDRESSES]
+**Official Contract Addresses** [THESE ARE THE ONLY OFFICIAL RIGCOIN ADDRESSES]
 
--      Mainnet NFT Contract   'coming soon'
--      Mainnet Token Contract 'coming soon'
+- Mainnet NFT Contract   'coming soon'
+- Mainnet Token Contract 'coming soon'
 
 
 **Rinkeby Testnet Addresses** [TESTING ONLY - UNTRACKED]
--      Rinkeby NFT Contract   [0x6E920964f1D3635e83071B449F4E648B29420878](https://rinkeby.etherscan.io/address/0x6E920964f1D3635e83071B449F4E648B29420878)
--      Rinkeby Token Contract [0x23149140a53E618A96E921336c18C8D873ffb7aD](https://rinkeby.etherscan.io/address/0x23149140a53E618A96E921336c18C8D873ffb7aD)
+- Rinkeby NFT Contract   [0x6E920964f1D3635e83071B449F4E648B29420878](https://rinkeby.etherscan.io/address/0x6E920964f1D3635e83071B449F4E648B29420878)
+- Rinkeby Token Contract [0x23149140a53E618A96E921336c18C8D873ffb7aD](https://rinkeby.etherscan.io/address/0x23149140a53E618A96E921336c18C8D873ffb7aD)
 
 
 ### Image Proofs
