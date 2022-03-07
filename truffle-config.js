@@ -12,7 +12,7 @@ module.exports = {
       version: "0.8.2"
     }
   },
-  contracts_build_directory: path.join(__dirname, "client3/src/contracts"),
+  contracts_build_directory: path.join(__dirname, "webapp/src/contracts"),
   networks: {
     development: {
      host: "127.0.0.1",     // Localhost (default: none)
@@ -23,9 +23,10 @@ module.exports = {
      provider: () => new HDWalletProvider(process.env.MNEMONIC, `https://rinkeby.infura.io/v3/${process.env.PROJECT_ID}`),
      network_id: 4,
      gas: 5500000,
-     confirmations: 3,
+     confirmations: 2,
      timeoutBlocks: 200,
-     skipDryRun: true
+     skipDryRun: true,
+     from: "0xA44c128A2592B80AA65aA7a0B2B181B4876D7Ee6"
    },
   }
 };
