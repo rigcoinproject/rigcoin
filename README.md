@@ -17,9 +17,9 @@ This repo contains the official open sources for Rigcoin NFTs and the Rigcoin to
 
 ---
 
-**Official Contract Addresses**
+### Official Contract Addresses
 
-*do not trust any other contracts claiming to be Rigcoin*
+*Never trust any other contracts claiming to be Rigcoin*
 
 `Mainnet NFT Contract` [View on Etherscan](https://etherscan.io/address/0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A) **Verified**
 ```
@@ -31,9 +31,7 @@ This repo contains the official open sources for Rigcoin NFTs and the Rigcoin to
 0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1
 ```
 
-**Rinkeby Testnet Addresses**
-
-*these contracts are for testing purposes only*
+*Rinkeby contracts are for testing purposes only*
 
 `Rinkeby NFT Contract` [View on Etherscan](https://rinkeby.etherscan.io/address/0xfccC26fc4606a21BB92237A7D927114A3d172386) `see token contract verification`
 ```
