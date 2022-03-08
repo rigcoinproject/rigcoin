@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 import {
   accountChangeEvent,
   permanentUriEvent,
@@ -37,6 +38,12 @@ const AuthProvider = ({children}) => {
     return await res;
   }
 
+  let refreshState = () => {
+    if (updatedItems.length > 0) {
+      setUpdatedItems([]);
+    }
+  }
+
   const initialize = async () => {
     let res = await web3AuthRequestBeforeWindow();
     if (!res) {
@@ -60,9 +67,16 @@ const AuthProvider = ({children}) => {
         ...arr,
         item,
       ]);
+      //console.log(event);
+      //this is ugly but since updateReady is "ready" before
+      //updatedItems, this allows the view to check then call
+      //with the updated state at the right time
+      //careful with setReadyUpdate & setUpdatedItems above
+      //& the if (auth.updateReady) statement in CustomItemView
       setUpdateReady(true);
     });
   }
+
   useEffect(() => {
     initialize()
       .then(res => {
@@ -91,7 +105,7 @@ const AuthProvider = ({children}) => {
     }
   }, []);
 
-  let value = { user, connect, connecting, updatedItems, updateReady };
+  let value = { user, connect, connecting, updatedItems, updateReady, refreshState };
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
 

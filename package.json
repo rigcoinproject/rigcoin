@@ -1,0 +1,29 @@
+{
+  "name": "rigcoin",
+  "version": "1.0.0",
+  "description": "A collection of 5000 NFTs that mine Rigcon tokens",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rigcoinproject/rigcoin.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "Cryptocurrency",
+    "Blockchain",
+    "Decentralized",
+    "Mining"
+  ],
+  "author": "@ryanalex_eth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rigcoinproject/rigcoin/issues"
+  },
+  "homepage": "https://github.com/rigcoinproject/rigcoin#readme",
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.21"
+  }
+}

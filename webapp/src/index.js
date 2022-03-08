@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter } from "react-router-dom";
-import App from './App';
+import { SnackbarProvider } from 'notistack';
 
-//import reportWebVitals from './reportWebVitals';
+import App from './App';
 
 ReactDOM.render(
   <HashRouter>
-    <App />
+    <SnackbarProvider
+      maxSnack={3}
+      transitionDuration={{
+        appear: 10000,
+        enter: 500,
+        exit: 500
+      }}
+    >
+      <App />
+    </SnackbarProvider>
   </HashRouter>,
   document.getElementById('root')
 );

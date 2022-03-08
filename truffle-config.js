@@ -28,5 +28,19 @@ module.exports = {
      skipDryRun: true,
      from: "0xA44c128A2592B80AA65aA7a0B2B181B4876D7Ee6"
    },
-  }
+   mainnet: {
+     provider: () => new HDWalletProvider(process.env.MNEMONIC, `https://mainnet.infura.io/v3/${process.env.PROJECT_ID}`),
+     network_id: 1,
+     confirmations: 2,
+     timeoutBlocks: 200,
+     skipDryRun: true,
+     from: "0xA44c128A2592B80AA65aA7a0B2B181B4876D7Ee6"
+   }
+ },
+ plugins: [
+   'truffle-plugin-verify'
+ ],
+ api_keys: {
+   etherscan: process.env.ETHERSCAN_API
+ }
 };

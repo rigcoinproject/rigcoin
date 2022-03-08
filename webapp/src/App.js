@@ -9,7 +9,10 @@ import TabView from './views/tab';
 import TosView from './views/tos';
 import ErrorView from './views/error';
 
+
 const App = (props) => {
+
+
   return (
 
     <AuthProvider>

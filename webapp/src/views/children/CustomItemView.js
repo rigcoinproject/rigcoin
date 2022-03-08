@@ -10,6 +10,7 @@ import { web3afterWindow } from '../.././util/CustomWeb3';
 import RigNFTContract from '../.././contracts/RigNFT.json';
 import RigTokenContract from '../.././contracts/RigToken.json';
 import { useAuth } from '../.././components/auth';
+import { useSnackbar } from 'notistack';
 
 const style = {
   item: {
@@ -45,9 +46,12 @@ const CustomItemView = (props) => {
     const [isPublic, setIsPublic] = useState(false);
     const [isClaimable, setIsClaimable] = useState(false);
     const [itemLoading, setItemLoading] = useState(true);
+    const {enqueueSnackbar} = useSnackbar();
+
     const auth = useAuth();
 
     const mint = async () => {
+
       const web3 = await web3afterWindow();
       const networkId = await web3.eth.net.getId();
       const deployedNetwork = RigNFTContract.networks[networkId];
@@ -134,49 +138,110 @@ const CustomItemView = (props) => {
       return await res;
     }
 
+    const pending = `Processing Request! This page will reload when complete!`;
+    const mintSuccess = `Congrats! You just minted Rig ${index}.`;
+    const mintError = (e) => {
+      return `Rig ${index} not minted! Error: ${e.message}`;
+    }
+
     const handleMint = () => {
+      enqueueSnackbar(pending, {
+        variant: 'info',
+      });
       mint()
         .then(res => {
-          console.log("Mint success, ", res);
+          enqueueSnackbar(mintSuccess, {
+            variant: 'success',
+          });
           handleReloadList();
         })
-        .catch(e => console.log(e));
+        .catch(e => {
+          enqueueSnackbar(mintError(e), {
+            variant: 'error',
+          });
+        });
+    }
+
+    const mineSuccess = `Congrats! You just mined some Rigcoin. Check your wallet balance to confirm.`;
+    const mineError = (e) => {
+      return `Mining error: ${e.message}`;
     }
 
     const handlePublicMine = () => {
+      enqueueSnackbar(pending, {
+        variant: 'info',
+      });
       pubMine()
         .then(res => {
-          console.log("Public mining success, ", res);
+          enqueueSnackbar(mineSuccess, {
+            variant: 'success',
+          });
           handleReloadList();
         })
-        .catch(e => console.log(e));
+        .catch(e => {
+          enqueueSnackbar(mineError(e), {
+            variant: 'error',
+          });
+        });
     }
 
     const handleOwnerMine = () => {
+      enqueueSnackbar(pending, {
+        variant: 'info',
+      });
       ownerMine()
         .then(res => {
-          console.log("Owner mining success, ", res);
+          enqueueSnackbar(mineSuccess, {
+            variant: 'success',
+          });
           handleReloadList();
         })
-        .catch(e => console.log(e));
+        .catch(e => {
+          enqueueSnackbar(mineError(e), {
+            variant: 'error',
+          });
+        });
+    }
+
+    const settingSuccess = `Congrats! You just updated Rig ${index}.`;
+    const settingError = (e) => {
+      return `Rig ${index} not minted! Error: ${e.message}`;
     }
 
     const handleOwnerSetPrivate = () => {
+      enqueueSnackbar(pending, {
+        variant: 'info',
+      });
       ownerSetPrivate()
         .then(res => {
-          console.log("Owner set private success, ", res);
+          enqueueSnackbar(settingSuccess, {
+            variant: 'success',
+          });
           handleReloadList();
         })
-        .catch(e => console.log(e));
+        .catch(e => {
+          enqueueSnackbar(settingError(e), {
+            variant: 'error',
+          });
+        });
     }
 
     const handleOwnerSetPublic = () => {
+      enqueueSnackbar(pending, {
+        variant: 'info',
+      });
       ownerSetPublic()
         .then(res => {
-          console.log("Owner set public success, ", res);
+          enqueueSnackbar(settingSuccess, {
+            variant: 'success',
+          });
           handleReloadList();
         })
-        .catch(e => console.log(e));
+        .catch(e => {
+          enqueueSnackbar(settingError(e), {
+            variant: 'error',
+          });
+        });
     }
     let modImage = <Image
         alt={alt}
@@ -185,16 +250,22 @@ const CustomItemView = (props) => {
         width='100%'
         />
 
-      let eventMatch = auth.updatedItems.find(el => el === index);
-    if (eventMatch) {
-      modImage = <img
-        alt='update ready'
-        src='https://via.placeholder.com/500x500?text=Rig+just+minted!+Reload+this+list.'
-        height='100%'
-        width='100%'
-      />
+
+    if (auth.updateReady) {
+      let eventMatch = auth.updatedItems.find(el => parseInt(el) === index);
+      if (eventMatch) {
+        modImage = <img
+          alt='update ready'
+          src='https://via.placeholder.com/500x500?text=Rig+just+minted!+Reload+this+list.'
+          height='100%'
+          width='100%'
+        />
+      }
 
     }
+
+
+
     const renderBtns = (param) => {
       //first determine which type of view this is
       //based on the view type show buttons.

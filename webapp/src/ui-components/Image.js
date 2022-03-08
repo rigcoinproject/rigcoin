@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 
 const Image = (props) => {
   const { alt, height, width} = props;
-  const src = 'https://ipfs.io/ipfs/QmR9wMFvhrpZA4Tvz3ERn6ZNvun36gU1KeqpW6YxbyULAj/rig'+ props.index +'.png'
+  const src = 'https://ipfs.io/ipfs/QmSqxUwSJEyBnos64HDWwuwoPn18E8aiHfDx4i2WXpWA9p/Rig'+ props.index +'.png'
   const [url, setUrl] = useState('https://via.placeholder.com/295x295?text=Image+Loading');
   const [unMounted, setUnmounted] = useState(false);
 

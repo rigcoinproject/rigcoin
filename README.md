@@ -1,22 +1,22 @@
 # Welcome to Rigcoin
 
-This repo contains the official open sources for Rigcoin NFTs and Tokens. The webapp is available
-on Brave at https://rigcoin.eth and on legacy browsers at https://rigcoin.eth.link.
+This repo contains the official open sources for Rigcoin NFTs and the Rigcoin token. The webapp is permanently available at https://rigcoin.eth
 
-
-**Connect on Twitter @ Rigcoinproject**
-
+### Special thanks to people doing work at [Protocol Labs](https://protocol.ai/) on the following projects:
+- [IPFS](https://ipfs.io/) 
+- [Filecoin](https://docs.filecoin.io/about-filecoin/ipfs-and-filecoin/)
+- [NFT Storage](https://nft.storage/)
 
 **Official Contract Addresses** [THESE ARE THE ONLY OFFICIAL RIGCOIN ADDRESSES]
+- Mainnet NFT Contract [0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A](https://rinkeby.etherscan.io/address/0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A) see token contract verification
 
-- Mainnet NFT Contract   'coming soon'
-- Mainnet Token Contract 'coming soon'
+- Rinkeby Token Contract [0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1](https://rinkeby.etherscan.io/address/0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1) **Verified**
 
 
 **Rinkeby Testnet Addresses** [TESTING ONLY - UNTRACKED]
-- Rinkeby NFT Contract   [0xBAe952F52f8A04C72604019636Ee966124C158C0](https://rinkeby.etherscan.io/address/0xBAe952F52f8A04C72604019636Ee966124C158C0)
-- Rinkeby Token Contract [0xD9A48eF2Eed8E295CF546d925F08834cbe85Fa12](https://rinkeby.etherscan.io/address/0xD9A48eF2Eed8E295CF546d925F08834cbe85Fa12)
+- Rinkeby NFT Contract [0xbb0Cf91D71e742724b2725cf9Fa105C29E78C5Be](https://rinkeby.etherscan.io/address/0xbb0Cf91D71e742724b2725cf9Fa105C29E78C5Be) see token contract verification
 
+- Rinkeby Token Contract [0xfccC26fc4606a21BB92237A7D927114A3d172386](https://rinkeby.etherscan.io/address/0xfccC26fc4606a21BB92237A7D927114A3d172386) **Verified**
 
 ### Image Proofs
 
@@ -26,7 +26,20 @@ will show up inside Metamask and other platforms by default. Each NFT conforms t
 additional metadata outlined below - some of which is not currently supported, but
 has been included for the future.
 
--     BASE_JSON = {
+600x600
+     QmSqxUwSJEyBnos64HDWwuwoPn18E8aiHfDx4i2WXpWA9p
+
+1200x1200
+     QmbDY9y7FpjnuYHfVbvCWELMzs8dyt6JahoNvWPPnjfS8g
+
+2400x2400
+     Qmajo8sfjPXPbaCLCZhzzpqfgXi4N4FNQVpXYffMjD6VjV
+
+### JSON objects
+
+     QmR6f6zhLNfsE6upkZkJCeuSSw2SJosy3Z6aJgAC5DQFfU
+
+     BASE_JSON = {
         "name": BASE_NAME,
         "description": BASE_OBJ_DESC,            
         "image": BASE_IMAGE_URL,                    (600x600) IPFS
@@ -37,16 +50,9 @@ has been included for the future.
         "background_color": BASE_COLOR,
       }`
 
-**JSON objects are all stored on IPFS**
-
--     QmR6f6zhLNfsE6upkZkJCeuSSw2SJosy3Z6aJgAC5DQFfU
-
-
 ### Rigcoin Webapp
 
-The intial build was pushed to IPFS and is updated via the published IPNS hash.
-
 **QM hash**  
--      QmRCu68Lem7mQDkwNUqdd9ZEgQhW7R45EKpMhnEW9M5SPY
+      QmRCu68Lem7mQDkwNUqdd9ZEgQhW7R45EKpMhnEW9M5SPY
 **IPNS hash**
--      k51qzi5uqu5dienjx47dvf4yjyf39i6n51j7hy5uozdtid8of8hm5yl0wg3yqf
+      k51qzi5uqu5dienjx47dvf4yjyf39i6n51j7hy5uozdtid8of8hm5yl0wg3yqf

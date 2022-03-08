@@ -9,7 +9,7 @@ import Button from '@mui/material/Button';
 import { web3afterWindow } from '../.././util/CustomWeb3';
 import RigNFTContract from '../.././contracts/RigNFT.json';
 import RigTokenContract from '../.././contracts/RigToken.json';
-
+import { useAuth } from '../.././components/auth';
 
 import {
   initialRows,
@@ -30,6 +30,7 @@ const CustomListView = (props) => {
   const [rows, setRows] = useState([]);
   const [listIsLoading, setListIsLoading] = useState(true);
   const [unMounted, setUnmounted] = useState(false);
+  const auth = useAuth();
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -135,6 +136,10 @@ const CustomListView = (props) => {
   }
 
   useEffect(() => {
+    // make sure the state is fresh
+    // there must a cleaner way to do this
+    auth.refreshState();
+
     loadRowData()
       .then(res => {
         if (!unMounted) {

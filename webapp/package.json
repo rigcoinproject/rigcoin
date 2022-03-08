@@ -1,6 +1,7 @@
 {
-  "name": "client3",
+  "name": "Rigcoin",
   "version": "0.1.0",
+  "description": "Webapp for Rigcoin - a colleciton of 5000 NFTs that mine Rigcoins",
   "private": true,
   "homepage": ".",
   "dependencies": {
@@ -13,8 +14,10 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "notistack": "^2.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-ga": "^3.3.0",
     "react-router-dom": "6.2.1",
     "react-scripts": "3.2.0",
     "web3": "^1.6.1"
