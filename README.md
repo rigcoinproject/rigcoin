@@ -2,6 +2,7 @@
 <img align="left" width="100" height="100" alt="Rigcoin Logo" src="logo.png">
 
 ## Welcome to `Rigcoin`
+
 Visit the live webapp at [Rigcoin.eth](https://rigcoin.eth)
 *Please make sure your browser has Metamask installed. Tested on Brave, Chrome and Metamask-browser.*
 ---
@@ -46,7 +47,7 @@ This repo contains the official open sources for Rigcoin NFTs and the Rigcoin to
 
 ---
 
-#### Image Proofs
+### Image Proofs
 There are 3 image sizes for each NFT, but only the 600x600 size is what
 will show up inside Metamask and other platforms by default. Each NFT conforms to the
 "ERC721 Metadata JSON Schema" [https://eips.ethereum.org/EIPS/eip-721](https://eips.ethereum.org/EIPS/eip-721), and each has
