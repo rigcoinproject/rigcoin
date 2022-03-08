@@ -1,7 +1,7 @@
 {
   "name": "Rigcoin",
   "version": "0.1.0",
-  "description": "Webapp for Rigcoin - a colleciton of 5000 NFTs that mine Rigcoins",
+  "description": "Webapp for Rigcoin - a colleciton of 5000 NFTs that mine Rigcoin tokens.",
   "private": true,
   "homepage": ".",
   "dependencies": {

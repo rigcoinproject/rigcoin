@@ -17,34 +17,30 @@ This repo contains the official open sources for Rigcoin NFTs and the Rigcoin to
 
 ---
 
-**Official Contract Addresses** [THESE ARE THE ONLY OFFICIAL RIGCOIN ADDRESSES]
-
-`Mainnet NFT Contract`
+**Official Contract Addresses**
+*do not trust any other contracts claiming to be Rigcoin*
+`Mainnet NFT Contract` [View on Etherscan](https://etherscan.io/address/0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A) **Verified**
 ```
 0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A
 ```
-[View the contract on Etherscan](https://etherscan.io/address/0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A) **Verified**
 
-`Mainnet Token Contract`
+`Mainnet Token Contract` [View on Etherscan](https://etherscan.io/address/0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1) **Verified**
 ```
 0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1
 ```
-[View the contract on Etherscan](https://etherscan.io/address/0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1) **Verified**
 
+**Rinkeby Testnet Addresses**
+*these contracts are for testing purposes only*
 
-**Rinkeby Testnet Addresses** [TESTING ONLY - UNTRACKED]
-
-`Rinkeby NFT Contract`
+`Rinkeby NFT Contract` [View on Etherscan](https://rinkeby.etherscan.io/address/0xfccC26fc4606a21BB92237A7D927114A3d172386) `see token contract verification`
 ```
 0xfccC26fc4606a21BB92237A7D927114A3d172386
 ```
-[View the contract on Etherscan](https://rinkeby.etherscan.io/address/0xfccC26fc4606a21BB92237A7D927114A3d172386) `see token contract verification`
 
-`Rinkeby Token Contract`
+`Rinkeby Token Contract` [View on Etherscan](https://rinkeby.etherscan.io/address/0xbb0Cf91D71e742724b2725cf9Fa105C29E78C5Be) **Verified**
 ```
 0xbb0Cf91D71e742724b2725cf9Fa105C29E78C5Be
 ```
-[View the contract on Etherscan](https://rinkeby.etherscan.io/address/0xbb0Cf91D71e742724b2725cf9Fa105C29E78C5Be) **Verified**
 
 ---
 
