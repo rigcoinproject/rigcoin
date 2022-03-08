@@ -2,10 +2,7 @@
 <img align="left" width="100" height="100" alt="Rigcoin Logo" src="logo.png">
 
 ## Welcome to `Rigcoin`
-
-```
 Visit the live webapp at [Rigcoin.eth](https://rigcoin.eth)
-```
 
 ---
 
@@ -22,10 +19,10 @@ This repo contains the official open sources for Rigcoin NFTs and the Rigcoin to
 
 **Official Contract Addresses** [THESE ARE THE ONLY OFFICIAL RIGCOIN ADDRESSES]
 
+`Mainnet NFT Contract`
 ```
-Mainnet NFT Contract
+0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A
 ```
-
 [0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A](https://etherscan.io/address/0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A) `see token contract verification`
 
 ```
