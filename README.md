@@ -23,40 +23,38 @@ This repo contains the official open sources for Rigcoin NFTs and the Rigcoin to
 ```
 0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A
 ```
-[0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A](https://etherscan.io/address/0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A) `see token contract verification`
+[View the contract on Etherscan](https://etherscan.io/address/0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A) `see token contract verification`
 
+`Mainnet Token Contract`
 ```
-Mainnet Token Contract
+0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1
 ```
-
-[0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1](https://etherscan.io/address/0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1) **Verified**
+[View the contract on Etherscan](https://etherscan.io/address/0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1) **Verified**
 
 
 **Rinkeby Testnet Addresses** [TESTING ONLY - UNTRACKED]
 
+`Rinkeby NFT Contract`
 ```
-Rinkeby NFT Contract
+0xbb0Cf91D71e742724b2725cf9Fa105C29E78C5Be
 ```
+[View the contract on Etherscan](https://etherscan.io/address/0xbb0Cf91D71e742724b2725cf9Fa105C29E78C5Be) `see token contract verification`
 
-[0xbb0Cf91D71e742724b2725cf9Fa105C29E78C5Be](https://rinkeby.etherscan.io/address/0xbb0Cf91D71e742724b2725cf9Fa105C29E78C5Be) `see token contract verification`
-
+`Rinkeby Token Contract`
 ```
-Rinkeby Token Contract
+0xfccC26fc4606a21BB92237A7D927114A3d172386
 ```
-
-[0xfccC26fc4606a21BB92237A7D927114A3d172386](https://rinkeby.etherscan.io/address/0xfccC26fc4606a21BB92237A7D927114A3d172386) **Verified**
+[View the contract on Etherscan](https://etherscan.io/address/0xfccC26fc4606a21BB92237A7D927114A3d172386) **Verified**
 
 ---
 
 ### Image Proofs
-
-<p align="center">
-  There are 3 image sizes for each NFT, but only the 600x600 size is what
+There are 3 image sizes for each NFT, but only the 600x600 size is what
 will show up inside Metamask and other platforms by default. Each NFT conforms to the
 "ERC721 Metadata JSON Schema" [https://eips.ethereum.org/EIPS/eip-721](https://eips.ethereum.org/EIPS/eip-721), and each has
 additional metadata outlined below - some of which is not currently supported, but
 has been included for the future.
-</p>
+
 
 `600x600`
 ```
