@@ -36,15 +36,15 @@ This repo contains the official open sources for Rigcoin NFTs and the Rigcoin to
 
 `Rinkeby NFT Contract`
 ```
-0xbb0Cf91D71e742724b2725cf9Fa105C29E78C5Be
+0xfccC26fc4606a21BB92237A7D927114A3d172386
 ```
-[View the contract on Etherscan](https://rinkeby.etherscan.io/address/0xbb0Cf91D71e742724b2725cf9Fa105C29E78C5Be) `see token contract verification`
+[View the contract on Etherscan](https://rinkeby.etherscan.io/address/0xfccC26fc4606a21BB92237A7D927114A3d172386) `see token contract verification`
 
 `Rinkeby Token Contract`
 ```
-0xfccC26fc4606a21BB92237A7D927114A3d172386
+0xbb0Cf91D71e742724b2725cf9Fa105C29E78C5Be
 ```
-[View the contract on Etherscan](https://rinkeby.etherscan.io/address/0xfccC26fc4606a21BB92237A7D927114A3d172386) **Verified**
+[View the contract on Etherscan](https://rinkeby.etherscan.io/address/0xbb0Cf91D71e742724b2725cf9Fa105C29E78C5Be) **Verified**
 
 ---
 
