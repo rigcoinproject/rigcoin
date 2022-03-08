@@ -23,7 +23,7 @@ This repo contains the official open sources for Rigcoin NFTs and the Rigcoin to
 ```
 0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A
 ```
-[View the contract on Etherscan](https://etherscan.io/address/0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A) `see token contract verification`
+[View the contract on Etherscan](https://etherscan.io/address/0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A) **Verified**
 
 `Mainnet Token Contract`
 ```
