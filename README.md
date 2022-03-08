@@ -4,6 +4,7 @@
 ## Welcome to `Rigcoin`
 
 Visit the live webapp at [Rigcoin.eth](https://rigcoin.eth)
+
 *Please make sure your browser has Metamask installed. Tested on Brave, Chrome and Metamask-browser.*
 ---
 
