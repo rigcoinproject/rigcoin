@@ -1,4 +1,4 @@
-# Welcome to Rigcoin
+# Welcome to Rigcoin ![Rigcoin Logo](logo.png)
 
 This repo contains the official open sources for Rigcoin NFTs and the Rigcoin token. The webapp is permanently available at https://rigcoin.eth
 
