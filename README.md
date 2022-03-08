@@ -6,6 +6,7 @@
 Visit the live webapp at [Rigcoin.eth](https://rigcoin.eth)
 
 *Please make sure your browser has Metamask installed. Tested on Brave, Chrome and Metamask-browser.*
+
 ---
 
 This repo contains the official open sources for Rigcoin NFTs and the Rigcoin token. The webapp is permanently available using the IPFS hash `k51qzi5uqu5dienjx47dvf4yjyf39i6n51j7hy5uozdtid8of8hm5yl0wg3yqf`
