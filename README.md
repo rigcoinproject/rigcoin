@@ -3,14 +3,14 @@
 This repo contains the official open sources for Rigcoin NFTs and the Rigcoin token. The webapp is permanently available at https://rigcoin.eth
 
 ### Special thanks to people doing work at [Protocol Labs](https://protocol.ai/) on the following projects:
-- [IPFS](https://ipfs.io/) 
+- [IPFS](https://ipfs.io/)
 - [Filecoin](https://docs.filecoin.io/about-filecoin/ipfs-and-filecoin/)
 - [NFT Storage](https://nft.storage/)
 
 **Official Contract Addresses** [THESE ARE THE ONLY OFFICIAL RIGCOIN ADDRESSES]
 - Mainnet NFT Contract [0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A](https://rinkeby.etherscan.io/address/0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A) see token contract verification
 
-- Rinkeby Token Contract [0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1](https://rinkeby.etherscan.io/address/0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1) **Verified**
+- Mainnet Token Contract [0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1](https://rinkeby.etherscan.io/address/0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1) **Verified**
 
 
 **Rinkeby Testnet Addresses** [TESTING ONLY - UNTRACKED]
