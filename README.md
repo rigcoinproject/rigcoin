@@ -3,10 +3,11 @@
 
 ## Welcome to `Rigcoin`
 
+A collection of 5,000 NFTs that mine Rigcoin.
 
-Visit the live webapp at [Rigcoin.eth](https://rigcoin.eth.link)
+Visit the live webapp at [rigcoin.eth](https://rigcoin.eth.link)
 
-Connect on Twitter at [@rigcoinproject](https://rigcoinproject)
+Connect on Twitter at [@rigcoinproject](https://twitter.com/rigcoinproject)
 
 *Please make sure your browser has Metamask installed. Tested on Brave, Chrome and Metamask-browser.*
 
