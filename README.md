@@ -3,7 +3,8 @@
 
 ## Welcome to `Rigcoin`
 
-Visit the live webapp at [Rigcoin.eth](https://rigcoin.eth)
+
+Visit the live webapp at [Rigcoin.eth](https://rigcoin.eth.link)
 
 Connect on Twitter at [@rigcoinproject](https://rigcoinproject)
 
