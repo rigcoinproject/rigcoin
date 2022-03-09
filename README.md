@@ -5,6 +5,8 @@
 
 Visit the live webapp at [Rigcoin.eth](https://rigcoin.eth)
 
+Connect on Twitter at [@rigcoinproject](https://rigcoinproject)
+
 *Please make sure your browser has Metamask installed. Tested on Brave, Chrome and Metamask-browser.*
 
 ---
