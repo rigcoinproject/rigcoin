@@ -34,13 +34,10 @@ const FooterView = () => {
         <Grid item xs={12} md={4} lg={4}>
           <Box sx={{p:1, my:2}}>
             <Box sx={{p:1, display: 'inline'}}>
-              Art Proofs
+              <a href="https://etherscan.io/address/0x0E68CeA2F61cC76F0f2676f99d4213A94714f74A" style={style.link}>NFT Contract</a>
             </Box>
             <Box sx={{p:1, display: 'inline'}}>
-              NFT Contract
-            </Box>
-            <Box sx={{p:1, display: 'inline'}}>
-              Token Contract
+              <a href="https://etherscan.io/address/0xa85DA5Dfc11BBA388B34aA0C3Cc278b0703050c1" style={style.link}>Token Contract</a>
             </Box>
           </Box>
         </Grid>

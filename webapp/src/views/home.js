@@ -208,7 +208,7 @@ const HomeView = (props) => {
                     <Typography component="div" variant="subtitle2" style={style.subtitle}>
                        Can there be a coded equilivalent of a physical mining rig to create
                        valid proof of work? That is the question this project hopes to answer. To keep
-                       things simple here are three mains features to consider.
+                       things simple here are three main features to consider.
                     </Typography>
                   </Grid>
                   <Grid item xs={1} md={1} lg={1}></Grid>

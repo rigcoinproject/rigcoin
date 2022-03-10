@@ -57,6 +57,8 @@ contract RigToken is ERC20 {
         //attempts to enforce a period between potential claims.
         require(block.timestamp >= claims[id].claimTimestamp + rig.periodOf(id), "not enough time has past since the last claim.");
         _mint(msg.sender, mintAmount(id));
+        //broken in production because I fucked up and forgot to edit this
+        //_mint(rig.ownerOf(id), 1 * 10 ** 18);
         _mint(rig.ownerOf(id), 1);
         claims[id].claimTimestamp = block.timestamp;
         emit PublicClaim(id, msg.sender);
