@@ -72,7 +72,7 @@ contract RigNFT is ERC721, ERC721Enumerable, ERC721URIStorage {
     */
     function random(uint number) private view returns (uint) {
         uint i = uint(keccak256(abi.encodePacked(block.difficulty, block.timestamp, msg.sender))) % number;
-        return i >= 1 ? i : 1;
+        return i >= 2 ? i : 2; //added to prevent minting 0 tokens
     }
     function append(string memory a, string memory b) internal pure returns (string memory) {
         return string(abi.encodePacked(a, b));
