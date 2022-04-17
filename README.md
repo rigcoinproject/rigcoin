@@ -2,6 +2,13 @@
 <img align="left" width="100" height="100" alt="Rigcoin Logo" src="logo.png">
 
 ## Welcome to `Rigcoin`
+## THE MAINNET CONTRACT HAS A CRITICAL BUG. DO NOT MINT ON IT.
+
+These contracts are RETIRED. The project remains active while working on community logistics and rethinking some aspects. Please reach if you have any questions, suggestions or would like to contribute in a meaningful way.
+
+Thinking it would be ideal to create a community of 1000 OG's would are excited to Mint Rigcoins before releasing a STABLE and AUDITED updated.
+
+##PLEASE DO NOT MINT USING THE BROKEN MAINNET CONTRACT BELOW.
 
 A collection of 5,000 NFTs that mine Rigcoin.
 
@@ -13,7 +20,7 @@ Connect on Twitter at [@rigcoinproject](https://twitter.com/rigcoinproject)
 
 ---
 
-This repo contains the official open sources for Rigcoin NFTs and the Rigcoin token. The webapp is permanently available using the IPFS hash `k51qzi5uqu5dienjx47dvf4yjyf39i6n51j7hy5uozdtid8of8hm5yl0wg3yqf`
+This repo contains the official open sources for Rigcoin NFTs and the Rigcoin token. The webapp is permanently available using the IPFS-IPNS hash below `k51qzi5uqu5dienjx47dvf4yjyf39i6n51j7hy5uozdtid8of8hm5yl0wg3yqf`
 
 ---
 
@@ -98,15 +105,3 @@ BASE_JSON = {
 ```
 
 ---
-
-### Rigcoin Webapp
-
-`QM hash`
-```
-QmRCu68Lem7mQDkwNUqdd9ZEgQhW7R45EKpMhnEW9M5SPY
-```
-
-`IPNS hash`
-```
-k51qzi5uqu5dienjx47dvf4yjyf39i6n51j7hy5uozdtid8of8hm5yl0wg3yqf
-```
