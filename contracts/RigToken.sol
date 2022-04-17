@@ -95,6 +95,7 @@ contract RigToken is ERC20 {
     */
 
     function mintAmount(uint256 id) private view returns (uint) {
-        return ((rig.powerOf(id) * startBlock) / block.timestamp * 10 ** 18);
+      // + 1 to equalize rig power with minted value
+      return (( (rig.powerOf(id) + 1)  * startBlock) / block.timestamp * 10 ** 18 );
     }
 }
