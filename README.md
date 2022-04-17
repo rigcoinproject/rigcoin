@@ -4,9 +4,9 @@
 ## Welcome to `Rigcoin`
 ## THE MAINNET CONTRACT HAS A CRITICAL BUG. DO NOT MINT ON IT.
 
-These contracts are RETIRED. The project remains active while working on community logistics and rethinking some aspects. Please reach if you have any questions, suggestions or would like to contribute in a meaningful way.
+These contracts are RETIRED. The project remains active while working on community logistics and rethinking some aspects. Please reach out if you have any questions, suggestions or would like to contribute in a meaningful way.
 
-Thinking it would be ideal to create a community of 1000 OG's would are excited to Mint Rigcoins before releasing a STABLE and AUDITED updated.
+The next step for this project is to develop a community of 500 - 1000 OG's who are excited to Mint Rigcoins before releasing a STABLE and AUDITED updated.
 
 ##PLEASE DO NOT MINT USING THE BROKEN MAINNET CONTRACT BELOW.
 
